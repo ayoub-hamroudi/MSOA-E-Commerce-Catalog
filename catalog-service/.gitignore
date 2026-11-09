@@ -1,0 +1,73 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Temporaires et journaux locaux ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.log
+__pycache__/
+*.pyc
+
+### Configuration locale / secrets ###
+.env
+.env.*
+!.env.example
+!.env.sample
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+secrets.properties
+secrets.yml
+secrets.yaml
+*.local.properties
+*.local.yml
+*.local.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Livraison : seule la copie de demonstration est versionnee.
+/data/catalog.db
+/update_images.py
+*.db-wal
+*.db-shm
+*.db-journal

@@ -1,0 +1,42 @@
+﻿# Java / Maven
+**/target/
+*.class
+*.log
+
+# Node.js / Vite
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Secrets et configuration locale
+**/.env
+**/.env.*
+!**/.env.example
+**/application-local.properties
+
+# IDE
+**/.idea/
+**/.vscode/
+*.iml
+
+# Bases SQLite locales
+**/*.db
+**/*.db-wal
+**/*.db-shm
+**/*.sqlite
+**/*.sqlite3
+
+# Base de démonstration Catalog autorisée
+!catalog-service/data/demo/catalog-demo.db
+
+# Utilitaire local
+catalog-service/update_images.py
+
+# Fichiers temporaires
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Archives locales
+MSOA-E-com-Demo/MSOA_TP_SQLite_6_Services_2026-11-05.zip
